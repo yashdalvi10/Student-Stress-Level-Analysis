@@ -6,10 +6,10 @@ Student mental health is one of the most pressing issues today.
 This project aims to analyze various factors — like sleep, study hours, academic pressure, and social support — to predict stress levels (Low, Moderate, High) using Supervised Machine Learning.
 
 🎯 Key Objectives
-✅ Identify patterns and correlations between lifestyle and stress
-✅ Build models that predict student stress levels
-✅ Evaluate multiple ML algorithms for best performance
-✅ Derive actionable insights for stress management
+Identify patterns and correlations between lifestyle and stress
+Build models that predict student stress levels
+Evaluate multiple ML algorithms for best performance
+Derive actionable insights for stress management
 
 
 📊 Dataset Information
@@ -22,11 +22,11 @@ This project aims to analyze various factors — like sleep, study hours, academ
 
 
 🧹 Data Preprocessing Steps
-✅ Removed duplicates & handled missing values
-✅ Dropped irrelevant columns (Student_ID)
-✅ Label encoded Stress_Level (Low→0, Moderate→1, High→2)
-✅ Used RobustScaler to minimize the effect of outliers
-✅ Performed train-test split (80–20 ratio)
+Removed duplicates & handled missing values
+Dropped irrelevant columns (Student_ID)
+Label encoded Stress_Level (Low→0, Moderate→1, High→2)
+Used RobustScaler to minimize the effect of outliers
+Performed train-test split (80–20 ratio)
 
 
 📈 Exploratory Data Analysis (EDA)
