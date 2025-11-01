@@ -6,10 +6,10 @@ Student mental health is one of the most pressing issues today.
 This project aims to analyze various factors — like sleep, study hours, academic pressure, and social support — to predict stress levels (Low, Moderate, High) using Supervised Machine Learning.
 
 🎯 Key Objectives
-Identify patterns and correlations between lifestyle and stress
-Build models that predict student stress levels
-Evaluate multiple ML algorithms for best performance
-Derive actionable insights for stress management
+- Identify patterns and correlations between lifestyle and stress
+- Build models that predict student stress levels
+- Evaluate multiple ML algorithms for best performance
+- Derive actionable insights for stress management
 
 
 📊 Dataset Information
@@ -22,24 +22,24 @@ Derive actionable insights for stress management
 
 
 🧹 Data Preprocessing Steps
-Removed duplicates & handled missing values
-Dropped irrelevant columns (Student_ID)
-Label encoded Stress_Level (Low→0, Moderate→1, High→2)
-Used RobustScaler to minimize the effect of outliers
-Performed train-test split (80–20 ratio)
+- Removed duplicates & handled missing values
+- Dropped irrelevant columns (Student_ID)
+- Label encoded Stress_Level (Low→0, Moderate→1, High→2)
+- Used RobustScaler to minimize the effect of outliers
+- Performed train-test split (80–20 ratio)
 
 
 📈 Exploratory Data Analysis (EDA)
 ✨ Visualized relationships using:
-Histograms & KDE plots (Feature Distribution)
-Boxplots (Outlier Detection)
-Correlation Heatmap
-Pairplots (Multivariate Trends)
+- Histograms & KDE plots (Feature Distribution)
+- Boxplots (Outlier Detection)
+- Correlation Heatmap
+- Pairplots (Multivariate Trends)
 
 🔍 Insights Example:
-High academic pressure → higher stress
-More sleep hours → lower stress
-Physical activity reduces stress probability
+- High academic pressure → higher stress
+- More sleep hours → lower stress
+- Physical activity reduces stress probability
 
 
 🤖 Machine Learning Models Used
@@ -56,9 +56,9 @@ Accuracy | Precision | Recall | F1-Score | Confusion Matrix | ROC-AUC
 
 
 🏆 Results Summary
-Random Forest & Stacking Classifier achieved the best overall accuracy
-Balanced recall across all stress levels
-Clear interpretability of key stress-driving features
+- Random Forest & Stacking Classifier achieved the best overall accuracy
+- Balanced recall across all stress levels
+- Clear interpretability of key stress-driving features
 
 📊 Example Result Visualization:
 Model Accuracy:
@@ -100,8 +100,8 @@ jupyter notebook Student_stress_Level_Analysis.ipynb
 
 👨‍💻 Author
 Yash R. Dalvi || ydalvi565@gmail.com
-📧 Data Science & Machine Learning Enthusiast
-💼 Passionate about solving real-world problems using data
+📧 Data Science & Machine Learning Enthusiast.
+💼 Passionate about solving real-world problems using data.
 
 
 🔥 “Predicting stress today to prevent burnout tomorrow.”
