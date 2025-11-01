@@ -4,7 +4,7 @@ import numpy as np
 
 # Load model and scaler
 model = pickle.load(open('stacking_model.pkl', 'rb'))
-scaler = pickle.load(open('rf_base_model.pkl', 'rb'))
+scaler = pickle.load(open('scaler.pkl', 'rb'))
 
 st.set_page_config(page_title="🎓 Student Stress Level Predictor", layout="centered")
 
